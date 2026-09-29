@@ -1,23 +1,34 @@
 # Python Image Resizer
 
-## Description
-Python Image Resizer is a simple tool to *batch resize images* in a folder while keeping their aspect ratio. It also allows *format conversion* (JPEG, PNG, etc.) and can generate sample images for testing. Built with Python and Pillow.
+A simple Python tool to batch resize images in a directory while preserving their original aspect ratio, supporting format conversions and sample test image generation.
 
 ---
 
-## Features
-- Resize all images in a folder.
-- Preserve the original aspect ratio (no stretching).
-- Convert images to different formats (JPEG, PNG, etc.).
-- Automatically create input and output folders.
-- Generate sample images for testing.
+##  Features
+
+* **Batch Resizing:** Resize all images in a target folder simultaneously.
+* **Aspect Ratio Preservation:** Maintains original image dimensions without stretching or distorting.
+* **Format Conversion:** Convert images across common formats (e.g., JPEG, PNG, WEBP).
+* **Automated Folder Setup:** Automatically creates input and output directory structures.
+* **Sample Generation:** Includes utility logic to generate sample images for testing.
 
 ---
 
-## Requirements
-- Python 3.x
-- Pillow library
+##  Requirements & Tech Stack
 
-Install Pillow with:
-```bash
+* **Language:** Python 3.x
+* **Library:** `Pillow` (PIL fork)
+
+---
+
+##  Installation & Setup
+
+1. **Clone the repository**:
+   git clone [https://github.com/arilakshme-05/python-image-resizer.git](https://github.com/arilakshme-05/python-image-resizer.git)
+   cd python-image-resizer
+
+2.Install dependencies:
 pip install Pillow
+
+3.Run the script:
+python resizer.py

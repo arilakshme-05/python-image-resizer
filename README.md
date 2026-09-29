@@ -31,4 +31,4 @@ A simple Python tool to batch resize images in a directory while preserving thei
 pip install Pillow
 
 3.Run the script:
-python resizer.py
+python image.py
